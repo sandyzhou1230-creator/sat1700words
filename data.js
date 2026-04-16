@@ -6,78 +6,29 @@ window.SAT_VOCAB_DATA = {
       title: "Day 1",
       focus: "Ocean-depth vocabulary, sudden change, public praise, and useful academic verbs.",
       words: [
-        {
-          word: "abyssal",
-          sentence: "The researchers explored the abyssal region of the ocean, where sunlight never reaches.",
-          choices: ["shallow", "coastal", "extremely deep", "polluted"],
-          answer: 2
-        },
-        {
-          word: "abrupt",
-          sentence: "The professor made an abrupt change to the syllabus, surprising the students.",
-          choices: ["gradual", "predictable", "sudden", "thoughtful"],
-          answer: 2
-        },
-        {
-          word: "accentuate",
-          sentence: "The bright lighting was used to accentuate the details of the artwork.",
-          choices: ["hide", "remove", "emphasize", "confuse"],
-          answer: 2
-        },
-        {
-          word: "acclaim",
-          sentence: "The novel was widely acclaimed by critics after its release.",
-          choices: ["ignored", "criticized", "praised", "questioned"],
-          answer: 2
-        },
-        {
-          word: "accrue",
-          sentence: "Interest will accrue over time if the money is left untouched.",
-          choices: ["disappear", "decrease", "accumulate", "transfer"],
-          answer: 2
-        },
-        {
-          word: "acidify",
-          sentence: "Rising carbon dioxide levels cause oceans to acidify, harming marine life.",
-          choices: ["freeze", "evaporate", "become more acidic", "stabilize"],
-          answer: 2
-        },
-        {
-          word: "acoustic",
-          sentence: "The hall was designed for excellent acoustic performance.",
-          choices: ["light", "temperature", "sound", "movement"],
-          answer: 2
-        },
-        {
-          word: "adapt",
-          sentence: "Animals must adapt to survive changes in their environment.",
-          choices: ["resist", "escape", "adjust", "dominate"],
-          answer: 2
-        },
-        {
-          word: "adept",
-          sentence: "She is highly adept at solving complex problems.",
-          choices: ["inexperienced", "careless", "skilled", "hesitant"],
-          answer: 2
-        },
-        {
-          word: "adroit",
-          sentence: "An adroit negotiator handles conflict smoothly.",
-          choices: ["lucky", "skillful and clever", "emotional", "impatient"],
-          answer: 1
-        },
-        {
-          word: "adverse",
-          sentence: "The project failed due to adverse weather conditions.",
-          choices: ["helpful", "neutral", "harmful", "expected"],
-          answer: 2
-        },
-        {
-          word: "advocate",
-          sentence: "Many scientists advocate stronger environmental policies.",
-          choices: ["oppose", "investigate", "support publicly", "misunderstand"],
-          answer: 2
-        }
+        { word: "abyssal", sentence: "The researchers explored the abyssal region of the ocean, where sunlight never reaches.", choices: ["shallow", "coastal", "extremely deep", "polluted"], answer: 2 },
+        { word: "abrupt", sentence: "The professor made an abrupt change to the syllabus, surprising the students.", choices: ["gradual", "predictable", "sudden", "thoughtful"], answer: 2 },
+        { word: "accentuate", sentence: "The bright lighting was used to accentuate the details of the artwork.", choices: ["hide", "remove", "emphasize", "confuse"], answer: 2 },
+        { word: "acclaim", sentence: "The novel was widely acclaimed by critics after its release.", choices: ["ignored", "criticized", "praised", "questioned"], answer: 2 },
+        { word: "accrue", sentence: "Interest will accrue over time if the money is left untouched.", choices: ["disappear", "decrease", "accumulate", "transfer"], answer: 2 },
+        { word: "acidify", sentence: "Rising carbon dioxide levels cause oceans to acidify, harming marine life.", choices: ["freeze", "evaporate", "become more acidic", "stabilize"], answer: 2 },
+        { word: "acoustic", sentence: "The hall was designed for excellent acoustic performance.", choices: ["light", "temperature", "sound", "movement"], answer: 2 },
+        { word: "adapt", sentence: "Animals must adapt to survive changes in their environment.", choices: ["resist", "escape", "adjust", "dominate"], answer: 2 },
+        { word: "adept", sentence: "She is highly adept at solving complex problems.", choices: ["inexperienced", "careless", "skilled", "hesitant"], answer: 2 },
+        { word: "adroit", sentence: "An adroit negotiator handles conflict smoothly.", choices: ["lucky", "skillful and clever", "emotional", "impatient"], answer: 1 },
+        { word: "adverse / adversity", sentence: "The project failed due to adverse weather conditions.", choices: ["helpful", "neutral", "harmful", "expected"], answer: 2 },
+        { word: "advocate", sentence: "Many scientists advocate stronger environmental policies.", choices: ["oppose", "investigate", "support publicly", "misunderstand"], answer: 2 },
+        { word: "affecting", sentence: "The documentary tells an affecting story about loss and hope.", choices: ["boring", "confusing", "emotionally moving", "exaggerated"], answer: 2 },
+        { word: "affinity", sentence: "She felt an immediate affinity for classical music.", choices: ["dislike", "natural liking", "confusion", "dependence"], answer: 1 },
+        { word: "agglomeration", sentence: "The city grew through the agglomeration of nearby towns.", choices: ["separation", "destruction", "clustering together", "regulation"], answer: 2 },
+        { word: "aggregate", sentence: "The aggregate data shows a clear trend.", choices: ["individual", "scattered", "combined total", "partial"], answer: 2 },
+        { word: "akin to", sentence: "Her response was akin to an apology.", choices: ["opposed to", "caused by", "similar to", "dependent on"], answer: 2 },
+        { word: "align with", sentence: "His values closely align with the company's mission.", choices: ["differ from", "ignore", "agree with", "challenge"], answer: 2 },
+        { word: "allude to", sentence: "The author alludes to historical events without naming them.", choices: ["explain clearly", "refer indirectly", "deny", "exaggerate"], answer: 1 },
+        { word: "allusion", sentence: "The speech contained an allusion to a famous myth.", choices: ["illusion", "argument", "indirect reference", "misunderstanding"], answer: 2 },
+        { word: "illusion", sentence: "The magician created the illusion of disappearance.", choices: ["reality", "evidence", "false appearance", "prediction"], answer: 2 },
+        { word: "elusion", sentence: "The criminal's elusion of capture frustrated the police.", choices: ["confession", "avoidance", "exposure", "cooperation"], answer: 1 },
+        { word: "elusive", sentence: "The solution remained elusive despite hours of discussion.", choices: ["obvious", "permanent", "hard to grasp", "valuable"], answer: 2 }
       ]
     },
     {
@@ -85,78 +36,44 @@ window.SAT_VOCAB_DATA = {
       title: "Day 2",
       focus: "Change, comparison, uncertainty, and analytical language used in school texts.",
       words: [
-        {
-          word: "alteration",
-          sentence: "The renovation required a minor alteration to the original design.",
-          choices: ["delay", "replacement", "change", "damage"],
-          answer: 2
-        },
-        {
-          word: "alternative",
-          sentence: "If public transport is unavailable, cycling is a practical alternative.",
-          choices: ["tradition", "obstacle", "another option", "preference"],
-          answer: 2
-        },
-        {
-          word: "alternation",
-          sentence: "The alternation between theory and practice kept students engaged.",
-          choices: ["conflict", "repetition", "switching back and forth", "imbalance"],
-          answer: 2
-        },
-        {
-          word: "amass",
-          sentence: "Over time, the company managed to amass a large amount of data.",
-          choices: ["lose", "analyze", "collect gradually", "discard"],
-          answer: 2
-        },
-        {
-          word: "ambient",
-          sentence: "The cafe's ambient lighting created a relaxed atmosphere.",
-          choices: ["artificial", "temporary", "surrounding", "harsh"],
-          answer: 2
-        },
-        {
-          word: "ambiguity",
-          sentence: "The ambiguity of the statement led to multiple interpretations.",
-          choices: ["accuracy", "clarity", "uncertainty", "emphasis"],
-          answer: 2
-        },
-        {
-          word: "ambivalent",
-          sentence: "She felt ambivalent about moving abroad for work.",
-          choices: ["confident", "excited", "conflicted", "uninterested"],
-          answer: 2
-        },
-        {
-          word: "ameliorate",
-          sentence: "The new policy aims to ameliorate working conditions.",
-          choices: ["worsen", "hide", "improve", "replace"],
-          answer: 2
-        },
-        {
-          word: "ample",
-          sentence: "There is ample evidence to support the theory.",
-          choices: ["limited", "confusing", "more than enough", "unreliable"],
-          answer: 2
-        },
-        {
-          word: "analogous",
-          sentence: "The brain is often described as analogous to a computer.",
-          choices: ["superior to", "dependent on", "similar to", "controlled by"],
-          answer: 2
-        },
-        {
-          word: "antagonistic",
-          sentence: "His tone became increasingly antagonistic during the debate.",
-          choices: ["supportive", "neutral", "hostile", "cautious"],
-          answer: 2
-        },
-        {
-          word: "arduous",
-          sentence: "Training for the marathon was physically arduous.",
-          choices: ["brief", "enjoyable", "difficult and tiring", "optional"],
-          answer: 2
-        }
+        { word: "alteration", sentence: "The renovation required a minor alteration to the original design.", choices: ["delay", "replacement", "change", "damage"], answer: 2 },
+        { word: "alternative", sentence: "If public transport is unavailable, cycling is a practical alternative.", choices: ["tradition", "obstacle", "another option", "preference"], answer: 2 },
+        { word: "alter", sentence: "The editor decided to alter the final paragraph slightly.", choices: ["remove", "criticize", "change", "copy"], answer: 2 },
+        { word: "alternation", sentence: "The alternation between theory and practice kept students engaged.", choices: ["conflict", "repetition", "switching back and forth", "imbalance"], answer: 2 },
+        { word: "amass", sentence: "Over time, the company managed to amass a large amount of data.", choices: ["lose", "analyze", "collect gradually", "discard"], answer: 2 },
+        { word: "ambient", sentence: "The cafe's ambient lighting created a relaxed atmosphere.", choices: ["artificial", "temporary", "surrounding", "harsh"], answer: 2 },
+        { word: "ambiguity", sentence: "The ambiguity of the statement led to multiple interpretations.", choices: ["accuracy", "clarity", "uncertainty", "emphasis"], answer: 2 },
+        { word: "ambivalent", sentence: "She felt ambivalent about moving abroad for work.", choices: ["confident", "excited", "conflicted", "uninterested"], answer: 2 },
+        { word: "ameliorate", sentence: "The new policy aims to ameliorate working conditions.", choices: ["worsen", "hide", "improve", "replace"], answer: 2 },
+        { word: "amenity", sentence: "Free Wi-Fi is now considered a basic hotel amenity.", choices: ["rule", "decoration", "convenience", "obligation"], answer: 2 },
+        { word: "amorphous", sentence: "The cloud formed an amorphous shape in the sky.", choices: ["symmetrical", "solid", "without clear form", "rigid"], answer: 2 },
+        { word: "ample", sentence: "There is ample evidence to support the theory.", choices: ["limited", "confusing", "more than enough", "unreliable"], answer: 2 },
+        { word: "analogical", sentence: "The teacher used analogical reasoning to explain the concept.", choices: ["statistical", "emotional", "based on comparison", "historical"], answer: 2 },
+        { word: "analogous", sentence: "The brain is often described as analogous to a computer.", choices: ["superior to", "dependent on", "similar to", "controlled by"], answer: 2 },
+        { word: "anatomical", sentence: "The course focuses on the anatomical structure of the human body.", choices: ["chemical", "medical", "relating to body structure", "psychological"], answer: 2 },
+        { word: "anatomize", sentence: "The critic proceeded to anatomize the argument in detail.", choices: ["summarize", "ignore", "analyze carefully", "defend"], answer: 2 },
+        { word: "antagonistic", sentence: "His tone became increasingly antagonistic during the debate.", choices: ["supportive", "neutral", "hostile", "cautious"], answer: 2 },
+        { word: "protagonist", sentence: "The novel focuses on the protagonist's moral growth.", choices: ["secondary", "antagonistic", "central and leading", "supporting"], answer: 2 },
+        { word: "antennae", sentence: "Insects use their antennae to sense their environment.", choices: ["wings", "eyes", "sensory organs", "muscles"], answer: 2 },
+        { word: "accrue", sentence: "Over time, the benefits of regular reading can accrue, leading to stronger vocabulary and comprehension skills.", choices: ["disappear suddenly", "decrease rapidly", "accumulate gradually", "change unexpectedly"], answer: 2 },
+        { word: "antibiotic", sentence: "Doctors prescribe an antibiotic to treat bacterial infections.", choices: ["vaccine", "painkiller", "medicine against bacteria", "nutrient"], answer: 2 },
+        { word: "anticipate", sentence: "The committee anticipated strong opposition to the proposal.", choices: ["avoided", "denied", "expected", "prevented"], answer: 2 },
+        { word: "anvil", sentence: "The blacksmith placed the metal on the anvil before striking it.", choices: ["furnace", "hammer", "metalworking block", "container"], answer: 2 },
+        { word: "apathy", sentence: "Voter apathy led to a low turnout in the election.", choices: ["anger", "confusion", "lack of interest", "fear"], answer: 2 },
+        { word: "aperture", sentence: "The camera's aperture controls how much light enters.", choices: ["lens", "shutter", "opening", "filter"], answer: 2 },
+        { word: "apostle", sentence: "He was regarded as an apostle of educational reform.", choices: ["critic", "observer", "strong supporter", "opponent"], answer: 2 },
+        { word: "apostrophize", sentence: "The poet chose to apostrophize nature in the final stanza.", choices: ["describe indirectly", "address directly", "criticize openly", "analyze deeply"], answer: 1 },
+        { word: "apparel", sentence: "Protective apparel is required in the laboratory.", choices: ["equipment", "clothing", "tools", "documents"], answer: 1 },
+        { word: "appease", sentence: "The manager tried to appease the angry customers.", choices: ["provoke", "dismiss", "calm", "confuse"], answer: 2 },
+        { word: "appraise", sentence: "The expert was hired to appraise the antique vase.", choices: ["restore", "sell", "evaluate", "transport"], answer: 2 },
+        { word: "apprehension", sentence: "She felt a sense of apprehension before the interview.", choices: ["excitement", "confidence", "anxiety", "relief"], answer: 2 },
+        { word: "comprehension", sentence: "Good reading skills are essential for full comprehension.", choices: ["memory", "speed", "understanding", "accuracy"], answer: 2 },
+        { word: "reprehension", sentence: "The teacher expressed reprehension toward the student's behavior.", choices: ["praise", "curiosity", "disapproval", "indifference"], answer: 2 },
+        { word: "apprise", sentence: "Please apprise me of any changes to the schedule.", choices: ["remind", "persuade", "inform", "question"], answer: 2 },
+        { word: "arbiter", sentence: "The judge acted as the final arbiter in the dispute.", choices: ["witness", "participant", "decision-maker", "advisor"], answer: 2 },
+        { word: "arcane", sentence: "The manual is filled with arcane terminology.", choices: ["modern", "simple", "mysterious and specialized", "emotional"], answer: 2 },
+        { word: "arduous", sentence: "Training for the marathon was physically arduous.", choices: ["brief", "enjoyable", "difficult and tiring", "optional"], answer: 2 },
+        { word: "arid", sentence: "The region's arid climate makes farming challenging.", choices: ["cold", "fertile", "dry", "windy"], answer: 2 }
       ]
     },
     {
@@ -164,78 +81,44 @@ window.SAT_VOCAB_DATA = {
       title: "Day 3",
       focus: "Academic argument, evaluation, support, and reliability vocabulary.",
       words: [
-        {
-          word: "artificial",
-          sentence: "The experiment relied on an artificial environment rather than natural conditions.",
-          choices: ["naturally occurring", "deliberately constructed", "biologically driven", "environmentally stable"],
-          answer: 1
-        },
-        {
-          word: "ascertain",
-          sentence: "Investigators attempted to ascertain the cause of the system failure.",
-          choices: ["publicly announce", "carefully determine", "roughly estimate", "immediately resolve"],
-          answer: 1
-        },
-        {
-          word: "assent",
-          sentence: "The plan could not be implemented without the committee's assent.",
-          choices: ["hesitation", "formal approval", "emotional support", "financial backing"],
-          answer: 1
-        },
-        {
-          word: "assertive",
-          sentence: "An assertive leader communicates expectations clearly and firmly.",
-          choices: ["excessively aggressive", "hesitant and cautious", "confident without hostility", "emotionally detached"],
-          answer: 2
-        },
-        {
-          word: "assess",
-          sentence: "Before drawing conclusions, researchers must assess the reliability of the data.",
-          choices: ["gather repeatedly", "criticize publicly", "evaluate carefully", "dismiss entirely"],
-          answer: 2
-        },
-        {
-          word: "asset",
-          sentence: "Her ability to work under pressure proved to be a major asset.",
-          choices: ["liability", "advantage", "obligation", "expense"],
-          answer: 1
-        },
-        {
-          word: "assuage",
-          sentence: "The explanation did little to assuage public concern.",
-          choices: ["intensify", "redirect", "ease", "expose"],
-          answer: 2
-        },
-        {
-          word: "atrocious",
-          sentence: "The report condemned the atrocious conditions in the overcrowded facility.",
-          choices: ["unfamiliar", "uncomfortable", "shockingly bad", "temporarily unstable"],
-          answer: 2
-        },
-        {
-          word: "augment",
-          sentence: "The new policy aims to augment existing social welfare programs.",
-          choices: ["replace entirely", "reduce gradually", "expand or increase", "regulate strictly"],
-          answer: 2
-        },
-        {
-          word: "authentic",
-          sentence: "The historian questioned whether the document was truly authentic.",
-          choices: ["officially approved", "widely accepted", "genuinely original", "carefully preserved"],
-          answer: 2
-        },
-        {
-          word: "automate",
-          sentence: "The company plans to automate routine tasks to improve efficiency.",
-          choices: ["supervise manually", "simplify conceptually", "perform using machines", "eliminate completely"],
-          answer: 2
-        },
-        {
-          word: "awry",
-          sentence: "The negotiations went awry after both sides refused to compromise.",
-          choices: ["smoothly", "unexpectedly wrong", "slowly", "deliberately off-topic"],
-          answer: 1
-        }
+        { word: "artificial", sentence: "The experiment relied on an artificial environment rather than natural conditions.", choices: ["naturally occurring", "deliberately constructed", "biologically driven", "environmentally stable"], answer: 1 },
+        { word: "ascertain", sentence: "Investigators attempted to ascertain the cause of the system failure.", choices: ["publicly announce", "carefully determine", "roughly estimate", "immediately resolve"], answer: 1 },
+        { word: "assent", sentence: "The plan could not be implemented without the committee's assent.", choices: ["hesitation", "formal approval", "emotional support", "financial backing"], answer: 1 },
+        { word: "assert", sentence: "The author asserts that technological progress should be carefully regulated.", choices: ["implies indirectly", "argues confidently", "questions skeptically", "observes passively"], answer: 1 },
+        { word: "assertive", sentence: "An assertive leader communicates expectations clearly and firmly.", choices: ["excessively aggressive", "hesitant and cautious", "confident without hostility", "emotionally detached"], answer: 2 },
+        { word: "assess", sentence: "Before drawing conclusions, researchers must assess the reliability of the data.", choices: ["gather repeatedly", "criticize publicly", "evaluate carefully", "dismiss entirely"], answer: 2 },
+        { word: "asset", sentence: "Her ability to work under pressure proved to be a major asset.", choices: ["liability", "advantage", "obligation", "expense"], answer: 1 },
+        { word: "assuage", sentence: "The explanation did little to assuage public concern.", choices: ["intensify", "redirect", "ease", "expose"], answer: 2 },
+        { word: "symmetry", sentence: "The building's symmetry contributes to its sense of balance and harmony.", choices: ["decorative detail", "structural complexity", "proportional balance", "architectural scale"], answer: 2 },
+        { word: "atrocious", sentence: "The report condemned the atrocious conditions in the overcrowded facility.", choices: ["unfamiliar", "uncomfortable", "shockingly bad", "temporarily unstable"], answer: 2 },
+        { word: "attribute to", sentence: "The scientist attributed the unexpected results to human error.", choices: ["connected the results with", "said the results were caused by", "ignored the results because of", "removed the results from"], answer: 1 },
+        { word: "augment", sentence: "The new policy aims to augment existing social welfare programs.", choices: ["replace entirely", "reduce gradually", "expand or increase", "regulate strictly"], answer: 2 },
+        { word: "authentic", sentence: "The historian questioned whether the document was truly authentic.", choices: ["officially approved", "widely accepted", "genuinely original", "carefully preserved"], answer: 2 },
+        { word: "automate", sentence: "The company plans to automate routine tasks to improve efficiency.", choices: ["supervise manually", "simplify conceptually", "perform using machines", "eliminate completely"], answer: 2 },
+        { word: "awry", sentence: "The negotiations went awry after both sides refused to compromise.", choices: ["smoothly", "unexpectedly wrong", "slowly", "deliberately off-topic"], answer: 1 },
+        { word: "banal", sentence: "Critics dismissed the novel's themes as banal and uninspired.", choices: ["overly simplistic and predictable", "emotionally intense", "morally ambiguous", "technically complex"], answer: 0 },
+        { word: "barring", sentence: "The trip will continue as scheduled, barring unforeseen circumstances.", choices: ["including", "except for", "following", "in contrast to"], answer: 1 },
+        { word: "bear out", sentence: "Recent findings appear to bear out the original hypothesis.", choices: ["challenge directly", "provide evidence for", "revise slightly", "contradict partially"], answer: 1 },
+        { word: "bemoan", sentence: "Residents bemoaned the loss of historical landmarks.", choices: ["ignored", "protested angrily", "expressed regret over", "justified publicly"], answer: 2 },
+        { word: "benevolent", sentence: "The foundation is led by a benevolent philanthropist.", choices: ["highly ambitious", "quietly influential", "motivated by kindness", "primarily self-interested"], answer: 2 },
+        { word: "asphalt", sentence: "The road was resurfaced with asphalt to improve durability.", choices: ["gravel mixture", "concrete blocks", "dark paving material", "compacted soil"], answer: 2 },
+        { word: "attachment", sentence: "The child showed strong emotional attachment to her caregiver.", choices: ["dependency", "obligation", "resistance", "imitation"], answer: 0 },
+        { word: "attire", sentence: "Formal attire is required for the award ceremony.", choices: ["behavior", "clothing", "decoration", "posture"], answer: 1 },
+        { word: "atypical", sentence: "His reaction was atypical compared to others in the group.", choices: ["predictable", "rare or unusual", "exaggerated", "insignificant"], answer: 1 },
+        { word: "authenticate", sentence: "Experts were called in to authenticate the ancient manuscript.", choices: ["restore physically", "analyze stylistically", "verify as genuine", "translate accurately"], answer: 2 },
+        { word: "authenticity", sentence: "The museum guarantees the authenticity of every artifact on display.", choices: ["artistic value", "historical influence", "proven genuineness", "monetary worth"], answer: 2 },
+        { word: "aviation", sentence: "Advances in aviation have shortened international travel time.", choices: ["aerospace engineering", "air transportation industry", "military defense system", "satellite communication"], answer: 1 },
+        { word: "bald", sentence: "The professor made a bald statement with no supporting evidence.", choices: ["carefully worded", "overly emotional", "blunt and unqualified", "visually striking"], answer: 2 },
+        { word: "bold", sentence: "The company took a bold step by entering a risky market.", choices: ["careless", "innovative and daring", "poorly planned", "traditionally accepted"], answer: 1 },
+        { word: "base", sentence: "The argument appealed to base instincts rather than reason.", choices: ["noble", "primitive or immoral", "logical", "emotional"], answer: 1 },
+        { word: "be descended from", sentence: "The royal family is descended from ancient rulers.", choices: ["originated from", "rebelled against", "replaced entirely", "coexisted with"], answer: 0 },
+        { word: "bearing", sentence: "She conducted herself with dignity and calm bearing.", choices: ["direction", "responsibility", "manner or demeanor", "obligation"], answer: 2 },
+        { word: "becoming", sentence: "The simple dress was becoming on her.", choices: ["fashionable", "suitable and flattering", "outdated", "modest"], answer: 1 },
+        { word: "behold", sentence: "Behold the dramatic changes that occurred over the decade.", choices: ["consider carefully", "look at with attention", "imagine vividly", "describe formally"], answer: 1 },
+        { word: "belie", sentence: "His calm tone belied the seriousness of the situation.", choices: ["revealed clearly", "exaggerated", "disguised", "justified logically"], answer: 2 },
+        { word: "bestow", sentence: "The university bestowed an honorary degree upon the author.", choices: ["evaluated", "publicly criticized", "formally granted", "temporarily offered"], answer: 2 },
+        { word: "betray", sentence: "Her hesitation betrayed her uncertainty.", choices: ["confirmed openly", "exposed unintentionally", "overcame successfully", "concealed deliberately"], answer: 1 },
+        { word: "bilateral", sentence: "The agreement strengthened bilateral relations between the two nations.", choices: ["regional", "one-sided", "involving two parties", "temporary"], answer: 2 }
       ]
     },
     {
@@ -243,78 +126,36 @@ window.SAT_VOCAB_DATA = {
       title: "Day 4",
       focus: "Behavior, support, institutions, honesty, and concrete descriptive nouns.",
       words: [
-        {
-          word: "bipedal",
-          sentence: "Humans are bipedal creatures, meaning they typically move using two legs rather than four.",
-          choices: ["having wings", "walking on two legs", "living in water", "extremely fast"],
-          answer: 1
-        },
-        {
-          word: "bleak",
-          sentence: "After weeks of failure, the team faced a bleak future with little hope of success.",
-          choices: ["bright", "uncertain", "hopeless", "exciting"],
-          answer: 2
-        },
-        {
-          word: "blossom",
-          sentence: "With encouragement from her teacher, her confidence began to blossom.",
-          choices: ["disappear", "weaken", "develop fully", "freeze"],
-          answer: 2
-        },
-        {
-          word: "bolster",
-          sentence: "The principal introduced new programs to bolster student morale.",
-          choices: ["reduce", "criticize", "support", "replace"],
-          answer: 2
-        },
-        {
-          word: "boorish",
-          sentence: "His boorish behavior at the formal dinner embarrassed everyone at the table.",
-          choices: ["polite", "awkward", "rude", "quiet"],
-          answer: 2
-        },
-        {
-          word: "bough",
-          sentence: "The bird built its nest on a thick bough high up in the tree.",
-          choices: ["leaf", "fruit", "large tree branch", "root"],
-          answer: 2
-        },
-        {
-          word: "bounded",
-          sentence: "The research project had a clearly bounded scope, focusing only on urban schools rather than the entire education system.",
-          choices: ["unlimited", "carefully restricted", "loosely organized", "constantly changing"],
-          answer: 1
-        },
-        {
-          word: "bouquet",
-          sentence: "She carried a bouquet of roses down the aisle.",
-          choices: ["basket of fruit", "group of people", "arranged group of flowers", "colorful painting"],
-          answer: 2
-        },
-        {
-          word: "breach",
-          sentence: "The hacker caused a serious security breach by accessing private data.",
-          choices: ["repair", "agreement", "violation", "improvement"],
-          answer: 2
-        },
-        {
-          word: "breathtaking",
-          sentence: "The view from the mountaintop was absolutely breathtaking.",
-          choices: ["confusing", "ordinary", "stunning", "frightening"],
-          answer: 2
-        },
-        {
-          word: "bureaucratic",
-          sentence: "Completing the application was slow due to bureaucratic procedures.",
-          choices: ["efficient", "creative", "administrative and rule-heavy", "careless"],
-          answer: 2
-        },
-        {
-          word: "candor",
-          sentence: "The coach appreciated her candor when she admitted her mistake.",
-          choices: ["silence", "honesty", "confidence", "anger"],
-          answer: 1
-        }
+        { word: "bipedal", sentence: "Humans are bipedal creatures, meaning they typically move using two legs rather than four.", choices: ["having wings", "walking on two legs", "living in water", "extremely fast"], answer: 1 },
+        { word: "bleak", sentence: "After weeks of failure, the team faced a bleak future with little hope of success.", choices: ["bright", "uncertain", "hopeless", "exciting"], answer: 2 },
+        { word: "blossom", sentence: "With encouragement from her teacher, her confidence began to blossom.", choices: ["disappear", "weaken", "develop fully", "freeze"], answer: 2 },
+        { word: "bolster", sentence: "The principal introduced new programs to bolster student morale.", choices: ["reduce", "criticize", "support", "replace"], answer: 2 },
+        { word: "boorish", sentence: "His boorish behavior at the formal dinner embarrassed everyone at the table.", choices: ["polite", "awkward", "rude", "quiet"], answer: 2 },
+        { word: "bough", sentence: "The bird built its nest on a thick bough high up in the tree.", choices: ["leaf", "fruit", "large tree branch", "root"], answer: 2 },
+        { word: "twig / branch / bough", sentence: "The child snapped a twig easily, while the bough was far too thick to break. Which word best describes the smallest and thinnest part of a tree?", choices: ["branch", "bough", "trunk", "twig"], answer: 3 },
+        { word: "bounded", sentence: "The research project had a clearly bounded scope, focusing only on urban schools rather than the entire education system.", choices: ["unlimited", "carefully restricted", "loosely organized", "constantly changing"], answer: 1 },
+        { word: "bouquet", sentence: "She carried a bouquet of roses down the aisle.", choices: ["basket of fruit", "group of people", "arranged group of flowers", "colorful painting"], answer: 2 },
+        { word: "branch off", sentence: "During the lecture, the speaker began to branch off into unrelated topics.", choices: ["summarize", "repeat", "digress", "conclude"], answer: 2 },
+        { word: "breach", sentence: "The hacker caused a serious security breach by accessing private data.", choices: ["repair", "agreement", "violation", "improvement"], answer: 2 },
+        { word: "breathtaking", sentence: "The view from the mountaintop was absolutely breathtaking.", choices: ["confusing", "ordinary", "stunning", "frightening"], answer: 2 },
+        { word: "bribery", sentence: "The official was arrested for bribery after accepting money in exchange for favors.", choices: ["theft", "corruption", "negotiation", "generosity"], answer: 1 },
+        { word: "brink", sentence: "The company was on the brink of bankruptcy before the new investor stepped in.", choices: ["advantage", "beginning", "edge", "recovery"], answer: 2 },
+        { word: "brood on", sentence: "He continued to brood on his past mistakes instead of moving forward. Which word is closest in meaning to brood on?", choices: ["forget", "celebrate", "dwell on", "joke about"], answer: 2 },
+        { word: "brusque", sentence: "The receptionist's brusque reply made the visitor feel unwelcome.", choices: ["friendly", "brief and rude", "emotional", "unclear"], answer: 1 },
+        { word: "buoy up", sentence: "Her friends tried to buoy her up during a difficult time.", choices: ["discourage", "distract", "support emotionally", "challenge"], answer: 2 },
+        { word: "bureaucratic", sentence: "Completing the application was slow due to bureaucratic procedures.", choices: ["efficient", "creative", "administrative and rule-heavy", "careless"], answer: 2 },
+        { word: "burst", sentence: "The balloon burst suddenly, startling the children.", choices: ["expanded", "disappeared", "exploded", "floated"], answer: 2 },
+        { word: "bust", sentence: "The police conducted a drug bust late last night.", choices: ["celebration", "failure", "arrest operation", "investigation report"], answer: 2 },
+        { word: "bustling / hustle", sentence: "Although the train station was bustling with commuters, there was little of the tense urgency that usually characterizes a true hustle. Which interpretation best explains the contrast between bustling and hustle in this sentence?", choices: ["Bustling suggests noisy confusion, while hustle implies silence.", "Bustling emphasizes steady activity, while hustle implies pressured or urgent movement.", "Bustling refers to disorganization, while hustle refers to efficiency.", "Bustling describes physical movement, while hustle describes mental effort."], answer: 1 },
+        { word: "buttress", sentence: "Evidence was used to buttress the scientist's theory.", choices: ["weaken", "ignore", "support", "replace"], answer: 2 },
+        { word: "bypass", sentence: "We decided to bypass the city to avoid heavy traffic.", choices: ["enter", "avoid", "repair", "observe"], answer: 1 },
+        { word: "candor", sentence: "The coach appreciated her candor when she admitted her mistake.", choices: ["silence", "honesty", "confidence", "anger"], answer: 1 },
+        { word: "canon / canonical", sentence: "The novel is considered canonical and is frequently studied in literature classes. What does canonical most nearly mean?", choices: ["controversial", "unofficial", "accepted as standard", "outdated"], answer: 2 },
+        { word: "canopy", sentence: "The dense canopy of leaves blocked most of the sunlight.", choices: ["underground tunnel", "covering above", "open field", "tree trunk"], answer: 1 },
+        { word: "canvas", sentence: "The artist stretched the canvas before beginning the painting.", choices: ["metal sheet", "wooden board", "fabric used for painting", "finished artwork"], answer: 2 },
+        { word: "capitalize", sentence: "The company failed to capitalize on the opportunity to expand its market.", choices: ["ignore", "profit from", "destroy", "delay"], answer: 1 },
+        { word: "captivate / captive", sentence: "The speaker's story was so engaging that it seemed to captivate the entire audience.", choices: ["confuse", "imprison", "attract completely", "frighten"], answer: 2 },
+        { word: "cast-iron", sentence: "The scientist demanded cast-iron evidence before accepting the claim.", choices: ["flexible", "emotional", "extremely strong and reliable", "temporary"], answer: 2 }
       ]
     },
     {
