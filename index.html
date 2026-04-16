@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SAT Vocabulary Sprint</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">32-Day SAT Vocabulary System</p>
+          <h1>Build recall, spelling, and real usage in one study flow.</h1>
+          <p class="hero-text">
+            Students first learn daily words, then redo quizzes for review, and
+            finally write original sentences so the words stick.
+          </p>
+        </div>
+        <div class="hero-panel">
+          <div class="stat-card">
+            <span>Total Plan</span>
+            <strong>32 Days</strong>
+          </div>
+          <div class="stat-card">
+            <span>Study Loop</span>
+            <strong>Learn → Quiz → Spell → Write</strong>
+          </div>
+          <div class="stat-card">
+            <span>Progress</span>
+            <strong id="hero-progress">0 days completed</strong>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <section class="summary-grid" id="summary-grid"></section>
+
+        <section class="roadmap-section card">
+          <div class="section-heading">
+            <div>
+              <p class="section-kicker">Roadmap</p>
+              <h2>32-day learning calendar</h2>
+            </div>
+            <p class="section-copy">
+              Days with real worksheet content are ready now. The rest of the
+              calendar is already laid out for the full book.
+            </p>
+          </div>
+          <div id="day-grid" class="day-grid"></div>
+        </section>
+
+        <section class="workspace-grid">
+          <article class="card lesson-card">
+            <div class="section-heading compact">
+              <div>
+                <p class="section-kicker">Today</p>
+                <h2 id="day-title">Day 1</h2>
+              </div>
+              <div class="pill" id="day-status">Ready</div>
+            </div>
+            <p class="lesson-summary" id="day-summary"></p>
+            <div class="tab-row" id="tab-row"></div>
+            <div id="panel-content" class="panel-content"></div>
+          </article>
+
+          <aside class="card sidebar-card">
+            <div class="section-heading compact">
+              <div>
+                <p class="section-kicker">Teacher Notes</p>
+                <h2>How this site is organized</h2>
+              </div>
+            </div>
+            <ul class="teacher-notes">
+              <li>Each day is designed as a short, repeatable study block.</li>
+              <li>Quiz results and student writing are saved in this browser.</li>
+              <li>Review mode automatically reuses missed words.</li>
+              <li>
+                Spelling mode makes students type the exact word or phrase.
+              </li>
+              <li>
+                The content layer lives in
+                <code>/Users/sandy/Documents/New project/data.js</code> for easy
+                expansion to all 32 days.
+              </li>
+            </ul>
+          </aside>
+        </section>
+      </main>
+    </div>
+
+    <script src="./data.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
