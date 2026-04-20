@@ -258,6 +258,7 @@ h2 {
 
 .word-with-phonetic .word-text {
   display: inline-block;
+  font-weight: 700;
 }
 
 .word-with-phonetic .phonetic {
@@ -282,6 +283,16 @@ h2 {
 
 .word-chip-title .phonetic {
   font-size: 0.72em;
+}
+
+.learn-word .word-text {
+  font-size: clamp(2.4rem, 4vw, 3.5rem);
+  font-weight: 800;
+  line-height: 1.05;
+}
+
+.learn-word .phonetic {
+  font-size: 0.48em;
 }
 
 .flashcard .meaning {

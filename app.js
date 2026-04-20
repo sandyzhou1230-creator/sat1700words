@@ -204,7 +204,7 @@ function renderLearnTab(day) {
         <span class="pill">Card ${appState.learnIndex + 1} of ${day.words.length}</span>
         <span class="pill">${isMastered ? "Mastered" : "Needs more review"}</span>
       </div>
-      ${renderWordWithPhonetic(entry, "h3")}
+      ${renderWordWithPhonetic(entry, "learn-word")}
       <p class="question-stem">${entry.sentence}</p>
       <div class="meaning">
         <p class="meta-text"><strong>Core meaning:</strong> ${entry.choices[entry.answer]}</p>
