@@ -204,7 +204,7 @@ function renderLearnTab(day) {
         <span class="pill">Card ${appState.learnIndex + 1} of ${day.words.length}</span>
         <span class="pill">${isMastered ? "Mastered" : "Needs more review"}</span>
       </div>
-      <h3>${entry.word}</h3>
+      ${renderWordWithPhonetic(entry, "h3")}
       <p class="question-stem">${entry.sentence}</p>
       <div class="meaning">
         <p class="meta-text"><strong>Core meaning:</strong> ${entry.choices[entry.answer]}</p>
@@ -251,7 +251,7 @@ function renderQuizTab(day) {
         <span class="pill">Question ${appState.quizIndex + 1} of ${day.words.length}</span>
         <span class="meta-text"><strong>${progressCount}</strong> answered so far</span>
       </div>
-      <div class="question-word">${question.word}</div>
+      ${renderWordWithPhonetic(question, "question-word")}
       <p class="question-stem">${question.sentence}</p>
       <div class="choice-list">
         ${question.choices.map((choice, index) => `
@@ -386,7 +386,7 @@ function renderWritingTab(day) {
         return `
           <div class="sentence-card">
             <div class="meta-row">
-              <span class="pill">${entry.word}</span>
+              <div class="word-chip-wrap">${renderWordWithPhonetic(entry, "word-chip-title")}</div>
               <span class="meta-text"><strong>${entry.choices[entry.answer]}</strong></span>
             </div>
             <p class="question-stem">${entry.sentence}</p>
@@ -425,7 +425,7 @@ function renderReviewTab() {
         <span class="pill">Review ${appState.reviewIndex + 1} of ${reviewDeck.length}</span>
         <span class="meta-text"><strong>Source:</strong> ${item.dayTitle}</span>
       </div>
-      <div class="question-word">${item.word}</div>
+      ${renderWordWithPhonetic(item, "question-word")}
       <p class="question-stem">${item.sentence}</p>
       <div class="choice-list">
         ${item.choices.map((choice, index) => `
@@ -515,6 +515,16 @@ function renderFeedback(feedback) {
     return "";
   }
   return `<div class="feedback ${feedback.type}">${feedback.text}</div>`;
+}
+
+function renderWordWithPhonetic(entry, wordClass) {
+  const phonetic = entry.phonetic ? escapeHtml(entry.phonetic) : "";
+  return `
+    <div class="word-with-phonetic ${wordClass}">
+      <span class="word-text">${escapeHtml(entry.word)}</span>
+      ${phonetic ? `<span class="phonetic">${phonetic}</span>` : ""}
+    </div>
+  `;
 }
 
 function escapeHtml(value) {

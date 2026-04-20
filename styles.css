@@ -249,6 +249,41 @@ h2 {
   font-size: clamp(1.8rem, 3vw, 2.8rem);
 }
 
+.word-with-phonetic {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.word-with-phonetic .word-text {
+  display: inline-block;
+}
+
+.word-with-phonetic .phonetic {
+  font-size: 0.56em;
+  letter-spacing: 0.02em;
+  color: #5f6f84;
+  background: rgba(216, 236, 245, 0.55);
+  border: 1px solid rgba(34, 80, 106, 0.2);
+  border-radius: 999px;
+  padding: 4px 10px;
+}
+
+.word-chip-wrap {
+  max-width: 70%;
+}
+
+.word-chip-title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--ink);
+}
+
+.word-chip-title .phonetic {
+  font-size: 0.72em;
+}
+
 .flashcard .meaning {
   margin: 18px 0 0;
   padding-top: 18px;
